@@ -2,7 +2,7 @@
 
 :root {
     --color-primario: #1629d3;
-    --color-secundario_plata: rgb(197, 197, 197);
+    --color-secundario-plata: rgb(197, 197, 197);
 }
 
 
@@ -35,12 +35,12 @@ body {
 }
 
 .social_icon span:hover {
-    color: var(--color-secundario_plata);
+    color: var(--color-secundario-plata);
     cursor: pointer;
 }
 
 .card-header h3 {
-    color: var(--color-secundario_plata);
+    color: var(--color-secundario-plata);
 }
 
 .social_icon {
@@ -52,7 +52,7 @@ body {
 .input-group-prepend span {
     width: 50px;
     background-color:var(--color-primario);
-    color:var(--color-secundario_plata);
+    color:var(--color-secundario-plata);
     border: 0 !important;
 }
 
@@ -63,7 +63,7 @@ input:focus {
 }
 
 .remember {
-    color: var(--color-secundario_plata);
+    color: var(--color-secundario-plata);
 }
 
 .remember input {
@@ -74,20 +74,28 @@ input:focus {
 }
 
 .login_btn {
-    color:var(--color-secundario_plata);
+    color:var(--color-secundario-plata);
     background-color: var(--color-primario);
     width: 100px;
 }
 
 .login_btn:hover {
-    color: var(--color-primario);
-    background-color: var(--color-secundario_plata);
+    color:var(--color-primario);
+    background-color: var(--color-secundario-plata);
 }
 
 .links {
-    color:var(--color-secundario_plata);
+    color:var(--color-secundario-plata);
 }
 
 .links a {
     margin-left: 4px;
+}
+
+#resgistrarse{
+    color: var(--color-secundario-plata);
+}
+
+#enlace-contrasenia-recuperacion{
+    color: var(--color-secundario-plata);
 }
