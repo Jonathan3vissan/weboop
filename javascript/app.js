@@ -1,5 +1,5 @@
-function cmabiarTextoBotonIniciar() {
+function cambiarTextoBotonIniciar() {
     let TextoBoton= document.getElementById("boton-iniciar");
-    TextoBoton.textContent="INICIANDO";
 
+   TextoBoton.value = "Iniciando"
 }
