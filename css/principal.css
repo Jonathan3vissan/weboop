@@ -12,5 +12,24 @@ body {
 
 #barra-navegacion{
     
-    background-color: rgba(0, 0, 0, 0.5) !important;
+    background-color: rgba(144, 169, 250, 0.5) !important;
+}
+
+#clientes{
+color: yellow;
+}
+
+
+#modificar-clientes{
+
+color: rgb(68, 28, 248) ;
+}
+
+#eliminar-clientes{
+    color: rgb(196, 27, 27);
+}
+
+#nuevo-cliente{
+color: rgb(7, 114, 3)
+
 }
