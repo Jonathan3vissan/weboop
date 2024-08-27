@@ -1,23 +1,6 @@
-/* body {
-    /* 
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: auto;
-    max-width: 1200px; /* Ajusta según el diseño de tu sitio 
-    margin: 0 auto; Centra el contenedor si es necesario 
-
-} */
-
-image {
-    display: block;
-    width: 100%;
-    height: auto;
+:root {
+    --color-primario: #1629d3;
+    --color-secundario-plata: rgb(197, 197, 197);
 }
 
-.contenedor-imagen-fondo{
-width: 100%;
-max-width: max-content;
-overflow: hidden;
 
-}
