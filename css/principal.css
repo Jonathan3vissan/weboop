@@ -3,4 +3,14 @@
     --color-secundario-plata: rgb(197, 197, 197);
 }
 
+body {
+    background-image: url('../imagenes/frio-clientes.jpg');
+    background-repeat: no-repeat;
+    background-size: auto;
+} 
 
+
+#barra-navegacion{
+    
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
