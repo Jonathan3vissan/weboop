@@ -13,55 +13,23 @@
 <body>
 
   <button id="boton-incio" type="button" class="btn btn-outline-dark" onclick="volverPaginaPrincipal()">Inicio</button>
-  <button type="button" class="btn btn-outline-secondary">Clientes</button>
-  <button type="button" class="btn btn-outline-success">Nuevo cliente</button>
-  <button type="button" class="btn btn-outline-primary">Modificar cliente</button>
-  <button type="button" class="btn btn-outline-danger">Elimina cliente</button>
-  <button type="button" class="btn btn-outline-warning">Trabajos pendientes</button>
-   <button  id="boton-cerrar-sesion" type="button" class="btn btn-outline-info" onclick="cerrarSesion()">Cerrar sesion</button> 
-  <!-- <button type="button" class="btn btn-outline-light">Light</button>*/
- -->
-
-
-
-  <!-- 
-  <nav id="barra-navegacion" class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="../html/principal.html">Inicio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarText">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a id="clientes" class="nav-link active" aria-current="page" href="../html/mostrar-clientes.html">Clientes</a>
-          </li>
-          <li class="nav-item">
-            <a id="nuevo-cliente" class="nav-link" href="../html/nuevo-cliente.html">Nuevo cliente</a>
-          </li>
-          <li class="nav-item">
-            <a id="modificar-clientes" class="nav-link" href="../html/modificar-cliente">Modificar Clientes</a>
-          </li>
-          <li class="nav-item">
-            <a id="eliminar-clientes" class="nav-link" href="../html/eliminar-clientes.html">Elimninar cliente</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="../html/trabajos-pendientes.html">Trabajos pendientes</a>
-          </li>
-        </ul>
-        
-      </div>
-    </div>
-  </nav -->>
-
+  <button id="boton-clientes" type="button" class="btn btn-outline-secondary"
+    onclick="redirijeClientes()">Clientes</button>
+  <button id="boton-nuevo-cliente" type="button" class="btn btn-outline-success" onclick="paginaNuevoCliente()">Nuevo cliente</button>
+  <button id="boton-modificar-cliente" type="button" class="btn btn-outline-primary" onclick="paginaModificarCliente()">Modificar cliente</button>
+  <button id="boton-eliminar-cliente" type="button" class="btn btn-outline-danger"
+    onclick="redirijeEliminarCliente()">Elimina cliente</button>
+  <button id="boton-trabajos-pendientes" type="button" class="btn btn-outline-warning" onclick="paginaTrabajosPendiente()">Trabajos pendientes</button>
+  <button id="boton-cerrar-sesion" type="button" class="btn btn-outline-info" onclick="cerrarSesion()">Cerrar
+    sesion</button>
 
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-<script src="../javascript/app.js"></script>
-  </body>
+  <script src="../javascript/app.js"></script>
+</body>
 
 </body>
 
