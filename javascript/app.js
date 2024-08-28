@@ -52,9 +52,3 @@ function cerrarSesion() {
 
 
 
-
-
-/* 
-
-<a href="../html/principal.html" id="boton-incio" type="button" class="btn btn-outline-dark">Inicio</a>
-<a href="../html/principal.html" id="boton-incio" type="button" class="btn btn-outline-dark">Inicio</a> */
