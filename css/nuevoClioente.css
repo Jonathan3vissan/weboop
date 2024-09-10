@@ -1,47 +1,72 @@
 :root {
-    --color-primario: #1629d3;
+  --color-primario: #1629d3;
 
 }
 
 
 body {
 
-    background-color: rgb(29, 66, 106);
+  background-color: rgb(29, 66, 106);
 }
 
-    .form-container {
-      max-width: 500px;
-      margin: auto;
-      padding: 20px;
-      border: 1px solid #ddd;
-      border-radius: 8px;
-      background-color: #f9f9f9;
-    }
+.form-container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
 
-    .form-container label {
-      display: block;
-      margin-bottom: 8px;
-      font-weight: bold;
-    }
+.form-container label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
 
-    .form-container input {
-      width: 100%;
-      padding: 8px;
-      margin-bottom: 16px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-    }
+.form-container input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
 
-    .form-container button {
-      padding: 10px 15px;
-      border: none;
-      border-radius: 4px;
-      background-color: #007bff;
-      color: white;
-      cursor: pointer;
-      font-size: 16px;
-    }
+.form-container button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
 
-    .form-container button:hover {
-      background-color: #0056b3;
-    }
+.form-container button:hover {
+  background-color: #0056b3;
+}
+
+#volver {
+  background-color: rgb(11, 35, 154);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  font-size: 16px;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#volver:hover {
+  background-color: #91a5a9;
+  box-shadow: #f29e37;
+}
+
+#contendor-boton-volver {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-top: 10px;
+}
