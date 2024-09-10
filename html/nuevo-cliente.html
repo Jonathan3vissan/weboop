@@ -2,41 +2,49 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-   
-    <link rel="stylesheet" href="../css/nuevoClioente.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="../css/nuevoClioente.css">
 </head>
 
 <body>
-</head>
-<body>
-  <div class="form-container">
-    <h2>Nuevo Cliente</h2>
-    <form action="/add-contact" method="POST">
-      <label for="name">Nombre:</label>
-      <input type="text" id="name" name="name" required>
-      
-      <label for="name">Direccion:</label>
-      <input type="text" id="name" name="name" required>
-      
-      <label for="name">Marca del equipo:</label>
-      <input type="text" id="name" name="name" required>
-      
-      <label for="name">Forma de pago:</label>
-      <input type="text" id="name" name="name" required>
+  </head>
 
-      
+  <body>
+    <div class="form-container">
+      <h2>Nuevo Cliente</h2>
+      <form action="/add-contact" method="POST">
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
 
-      <button id="boton-agregar-cliente" type="submit" value="Agregar Cliente" onclick="textoCambiaAgregando()">Agregar Cliente</button>
-    </form>
-  </div>
+        <label for="name">Direccion:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="name">Marca del equipo:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="name">Forma de pago:</label>
+        <input type="text" id="name" name="name" required>
 
 
 
+        <button id="boton-agregar-cliente" type="submit" value="Agregar Cliente"
+          onclick="textoCambiaAgregando()">Agregar Cliente</button>
+      </form>
+    </div>
 
-<script src="../javascript/nuevoCliente.js"></script>
+    <div id="contendor-boton-volver">
+
+      <button id="volver" onclick="menuPrincipal()">Volver al menu Principal</button>
+
+    </div>
+
+
+
+
+    <script src="../javascript/nuevoCliente.js"></script>
 
 
 
@@ -44,6 +52,6 @@
 
 
 
-</body>
+  </body>
 
 </html>
